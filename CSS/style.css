@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@500&display=swap');
+body{
+    color: white;
+    background-color: rgba(36, 38, 38, 38);
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1350px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 20px;
+}
+h1{
+    font-weight: 400;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:rgb(132, 13, 201);
+    transition: 0.3s all;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    max-width: 600px;
+}
+h2{
+    line-height: 0px;
+    padding-bottom: 10px;
+    font-weight: 300px;
+}
+span{
+    color: rgb(132, 13, 201);
+    font-size: 35px;
+}
+p{
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.header-button{
+    border: 3px solid rgb(132, 13, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+.header-button:hover{
+    background-color: rgb(132, 13, 201);
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+input{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#button-submit{
+    max-width: 70%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#button-submit:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
